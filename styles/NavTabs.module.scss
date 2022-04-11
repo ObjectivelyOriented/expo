@@ -1,0 +1,22 @@
+.Tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  
+    height: 100%;
+  
+    cursor: pointer;
+  transition: color 1s;
+    .Icon {
+      font-size: 20px;
+    }
+  
+    .Label {
+      font-size: 12px;
+      text-transform: capitalize;
+    }
+  }
+.Tabs:hover{
+  color:#A1A1A1;
+}
